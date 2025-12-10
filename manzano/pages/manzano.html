@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="author" content="Ana Julia Rodrigues Schurnovski">
+  <title>Exercícios — Botões</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <h1>Manzano</h1>
+  <a href="../index.html">Voltar</a>
+  <div class="btns" role="group" aria-label="Exercícios de programação">
+    <!-- Exercícios a → m (primeiro conjunto) -->
+    <button class="exercise" id="ex-a"
+      title="Ler uma temperatura em graus Celsius e apresentá-la convertida em graus Fahrenheit. A fórmula de conversão é F ← (9 * C + 160) / 5, sendo F a temperatura em Fahrenheit e C a temperatura em Celsius.">
+      <span class="letter">1</span><span class="label-short">C→F</span>
+    </button>
+
+    <button class="exercise" id="ex-b"
+      title="Ler uma temperatura em graus Fahrenheit e apresentá-la convertida em graus Celsius. A fórmula de conversão é C ← (F - 32) * (5/9) , sendo F a temperatura em Fahrenheit e C a temperatura em Celsius.">
+      <span class="letter">2</span><span class="label-short">F→C</span>
+    </button>
+
+    <button class="exercise" id="ex-c"
+      title="Calcular e apresentar o valor do volume de uma lata de óleo, utilizando a fórmula: Volume Raio ** Altura 2 ←π">
+      <span class="letter">3</span><span class="label-short">Lata</span>
+    </button>
+
+    <button class="exercise" id="ex-d"
+      title="Efetuar o cálculo da quantidade de litros de combustível gasta em uma viagem, utilizando um automóvel que faz 12 Km por litro. Para obter o cálculo, o usuário deve fornecer o tempo gasto (TEMPO) e a velocidade média (VELOCIDADE) durante a viagem. Desta forma, será possível obter a distância percorrida com a fórmula DISTANCIA ← TEMPO * VELOCIDADE. Possuindo o valor da distância, basta calcular a quantidade de litros de combustível utilizada na viagem com a fórmula LITROS_USADOS ← DISTANCIA / 12. Ao final, o programa deve apresentar os valores da velocidade média (VELOCIDADE), tempo gasto na viagem (TEMPO), a distancia percorrida (DISTANCIA) e a quantidade de litros (LITROS_USADOS) utilizada na viagem. MANZANO, José Augusto N. G., Estudo Dirigido: ALGORITMOS - Editora Érica, 2000. - 26 -">
+      <span class="letter">4</span><span class="label-short">Viagem</span>
+    </button>
+
+    <button class="exercise" id="ex-e"
+      title="Efetuar o cálculo e a apresentação do valor de uma prestação em atraso, utilizando a fórmula PRESTACAO ← VALOR + (VALOR * TAXA/100) * TEMPO).">
+      <span class="letter">5</span><span class="label-short">Prestação</span>
+    </button>
+
+    <button class="exercise" id="ex-f"
+      title="Ler dois valores (inteiros, reais ou caracteres) para as variáveis A e B, e efetuar a troca dos valores de forma que a variável A passe a possuir o valor da variável B e a variável B passe a possuir o valor da variável A. Apresentar os valores trocados">
+      <span class="letter">6</span><span class="label-short">Troca</span>
+    </button>
+
+    <button class="exercise" id="ex-g"
+      title="Ler quatro números inteiros e apresentar o resultado da adição e multiplicação, baseando-se na utilização do conceito da propriedade distributiva. Ou seja, se forem lidas as variáveis A, B, C, e D, devem ser somadas e multiplicadas A com B, A com C e A com D. Depois B com C, B com D e por fim C com D. Perceba que será necessário efetuar seis operações de adição e seis operações de multiplicação e apresentar doze resultados de saída.">
+      <span class="letter">7</span><span class="label-short">Dis/Prod</span>
+    </button>
+
+    <button class="exercise" id="ex-h"
+      title="Elaborar um programa que calcule e apresente o volume de uma caixa retangular, por meio da fórmula VOLUME ← COMPRIMENTO * LARGURA * ALTURA.">
+      <span class="letter">8</span><span class="label-short">Caixa</span>
+    </button>
+
+    <button class="exercise" id="ex-i"
+      title="Ler dois inteiros (variáveis A e B) e imprimir o resultado do quadrado da diferença do primeiro valor pelo segundo.">
+      <span class="letter">9</span><span class="label-short">Diff²</span>
+    </button>
+
+    <button class="exercise" id="ex-j"
+      title="Elaborar um programa que efetue a apresentação do valor da conversão em real de um valor lido em dólar. O programa deve solicitar o valor da cotação do dólar e também a quantidade de dólares disponível com o usuário, para que seja apresentado o valor em moeda brasileira.">
+      <span class="letter">10</span><span class="label-short">US→R$</span>
+    </button>
+
+    <button class="exercise" id="ex-k"
+      title="Elaborar um programa que efetue a apresentação do valor da conversão em dólar de um valor lido em real. O programa deve solicitar o valor da cotação do dólar e também a quantidade de reais disponível com o usuário, para que seja apresentado o valor em moeda americana.">
+      <span class="letter">11</span><span class="label-short">R$→US</span>
+    </button>
+
+    <button class="exercise" id="ex-l"
+      title="Elaborar um programa que efetue a leitura de três valores (A, B e C) e apresente como resultado final à soma dos quadrados dos três valores lidos.">
+      <span class="letter">12</span><span class="label-short">Σsq</span>
+    </button>
+
+    <button class="exercise" id="ex-m"
+      title="Elaborar um programa que efetue a leitura de três valores (A,B e C) e apresente como resultado final o quadrado da soma dos três valores lidos.">
+      <span class="letter">13</span><span class="label-short">SqΣ</span>
+    </button>
+
+    <!-- Exercícios adicionais a → c (segundo conjunto) -->
+    <button class="exercise" id="ex2-a"
+      title="Elaborar um programa de computador que efetue a leitura de quatro valores inteiros (variáveis A, B, C e D). Ao final o programa deve apresentar o resultado do produto (variável P) do primeiro com o terceiro valor, e o resultado do produto (variável P) do primeiro com o terceiro valor, e o resultado da soma (variável S) do segundo com o quarto valor.">
+      <span class="letter">14</span><span class="label-short">Prod/Soma</span>
+    </button>
+
+    <button class="exercise" id="ex2-b"
+      title="Ler o valor correspondente ao salário mensal (variável SM) de um trabalhador e também o valor do percentual de reajuste (variável PR) a ser atribuído. Apresentar o valor do novo salário (variável NS).">
+      <span class="letter">15</span><span class="label-short">Salário</span>
+    </button>
+
+    <button class="exercise" id="ex2-c"
+      title="Em uma eleição sindical concorreram ao cargo de presidente três candidatos (A, B e C). Durante a apuração dos votos foram computados votos nulos e votos em branco, além dos votos válidos para cada candidato. Deve ser criado um programa de computador que efetue a leitura da quantidade de votos válidos para cada candidato, além de efetuar também a leitura da quantidade de votos nulos e votos em branco. Ao final o programa deve apresentar o número total de eleitores, considerando votos válidos, nulos e em branco; o percentual correspondente de votos válidos em relação à quantidade de eleitores; o percentual correspondente de votos válidos do candidato A em relação à quantidade de eleitores; o percentual correspondente de votos válidos do candidato B em relação à quantidade de eleitores; o percentual correspondente de votos válidos do candidato C em relação à quantidade de eleitores; o percentual correspondente de votos nulos em relação à quantidade de eleitores; e por último o percentual correspondente de votos em branco em relação à quantidade de eleitores.">
+      <span class="letter">16</span><span class="label-short">Votos</span>
+    </button>
+
+    <button class="exercise" id="ex3-a"
+      title="Ler dois valores numéricos inteiros e apresentar o resultado da diferença do maior pelo menor valor.">
+      <span class="letter">17</span><span class="label-short">Diferença</span>
+    </button>
+
+    <button class="exercise" id="ex3-b"
+      title="Efetuar a leitura de um valor inteiro positivo ou negativo e apresentar o número lido como sendo um valor positivo, ou seja, o programa deverá apresentar o módulo de um número fornecido. Lembre-se de verificar se o número fornecido é menor que zero; sendo, multiplique-o por -1.">
+      <span class="letter">18</span><span class="label-short">Módulo</span>
+    </button>
+
+    <button class="exercise" id="ex3-c"
+      title="Ler quatro valores referentes a quatro notas escolares de um aluno e imprimir uma mensagem dizendo que o aluno foi aprovado, se o valor da média escolar for maior ou igual a 5. Se o aluno não foi aprovado, indicar uma mensagem informando esta condição. Apresentar junto das mensagens o valor da média do aluno para qualquer condição.">
+      <span class="letter">19</span><span class="label-short">Média5</span>
+    </button>
+
+    <button class="exercise" id="ex3-d"
+      title="Ler quatro valores referentes a quatro notas escolares de um aluno e imprimir uma mensagem dizendo que o aluno foi aprovado, se o valor da média escolar for maior ou igual a 7. Se o valor da média for menor que 7, solicitar a nota de exame, somar com o valor da média e obter nova média. Se a nova média for maior ou igual a 5, apresentar uma mensagem dizendo que o aluno foi aprovado em exame. Se o aluno não foi aprovado, indicar uma mensagem informando esta condição. Apresentar com as mensagens o valor da média do aluno, para qualquer condição.">
+      <span class="letter">20</span><span class="label-short">Média7</span>
+    </button>
+
+    <button class="exercise" id="ex3-e"
+      title="Efetuar a leitura de três valores (variáveis A, B e C) e efetuar o cálculo da equação completa de segundo grau, apresentando as duas raízes, se para os valores informados for possível efetuar o referido cálculo. Lembre-se de que a variável A deve ser diferente de zero.">
+      <span class="letter">21</span><span class="label-short">2º Grau</span>
+    </button>
+
+    <button class="exercise" id="ex3-f"
+      title="Efetuar a leitura de três valores (variáveis A, B e C) e apresentá-los dispostos em ordem crescente.">
+      <span class="letter">22</span><span class="label-short">Crescente</span>
+    </button>
+
+    <button class="exercise" id="ex3-g"
+      title="Efetuar a leitura de quatro números inteiros e apresentar os números que são divisíveis por 2 e 3.">
+      <span class="letter">23</span><span class="label-short">Div2&3</span>
+    </button>
+
+    <button class="exercise" id="ex3-h"
+      title="Efetuar a leitura de cinco números inteiros e identificar o maior e o menor valores.">
+      <span class="letter">24</span><span class="label-short">Maior/Menor</span>
+    </button>
+
+    <button class="exercise" id="ex3-i"
+      title="Elaborar um programa que efetue a leitura de um número inteiro e apresentar uma mensagem informando se o número é par ou ímpar.">
+      <span class="letter">25</span><span class="label-short">Par/Ímpar</span>
+    </button>
+
+    <button class="exercise" id="ex3-j"
+      title="Elaborar um programa que efetue a leitura de um valor que esteja entre a faixa de 1 a 9. Após a leitura do valor fornecido pelo usuário, o programa deverá indicar uma de duas mensagens: &quot;O valor está na faixa permitida&quot;, caso o usuário forneça o valor nesta faixa, ou a mensagem &quot;O valor está fora da faixa permitida&quot;, caso o usuário forneça valores menores que 1 ou maiores que 9.">
+      <span class="letter">26</span><span class="label-short">Faixa</span>
+    </button>
+
+    <button class="exercise" id="ex3-k"
+      title="Elaborar um programa que efetue a leitura de um determinado valor inteiro, e efetue a sua apresentação, caso o valor não seja maior que três.">
+      <span class="letter">27</span><span class="label-short">≤3</span>
+    </button>
+
+    <button class="exercise" id="ex3-l"
+      title="Elaborar um programa que efetue a leitura do nome e do sexo de uma pessoa, apresentando com saída uma das seguintes mensagens: &quot;Ilmo Sr.&quot;, se o sexo informado como masculino, ou a mensagem &quot;Ilma Sra.&quot;, para o sexo informado como feminino. Apresente também junto da mensagem de saudação o nome previamente informado.">
+      <span class="letter">28</span><span class="label-short">Saudação</span>
+    </button>
+
+    <!-- Exercícios pag 46 -->
+    <button class="exercise" id="ex4-a"
+      title="Apresentar os resultados de uma tabuada de multiplicar (de 1 até 10) de um número qualquer.">
+      <span class="letter">29</span><span class="label-short">Tabuada</span>
+    </button>
+
+    <button class="exercise" id="ex4-b"
+      title="Apresentar o total da soma obtida dos cem primeiros números inteiros (1+2+3+4+...+98+99+100).">
+      <span class="letter">30</span><span class="label-short">Σ100</span>
+    </button>
+
+    <button class="exercise" id="ex4-c"
+      title="Elaborar um programa que apresente no final o somatório dos valores pares existentes na faixa de 1 até 500.">
+      <span class="letter">31</span><span class="label-short">ΣPares</span>
+    </button>
+
+    <button class="exercise" id="ex4-d"
+      title="Apresentar todos os valores numéricos inteiros ímpares situados na faixa de 0 a 20. Para verificar se o número é ímpar, efetuar dentro da malha a verificação lógica desta condição com a instrução se, perguntando se o número é ímpar; sendo, mostre-o; não sendo, passe para o próximo passo.">
+      <span class="letter">32</span><span class="label-short">Ímpares</span>
+    </button>
+
+    <button class="exercise" id="ex4-e"
+      title="Apresentar os resultados das potências de 3, variando do expoente 0 até o expoente 15. Deve ser considerado que qualquer número elevado a zero é 1, e elevado a 1 é ele próprio. Observe que neste exercício não pode ser utilizado o operador de exponenciação do portuguol (^).">
+      <span class="letter">33</span><span class="label-short">3^n</span>
+    </button>
+
+    <button class="exercise" id="ex4-f"
+      title="Elaborar um programa que apresente como resultado o valor de uma potência de uma base qualquer elevada a um expoente qualquer, ou seja, de BE, em que B é o valor da base e E o valor do expoente. Observe que neste exercício não pode ser utilizado o operador de exponenciação do portugol (^).">
+      <span class="letter">34</span><span class="label-short">B^E</span>
+    </button>
+
+    <button class="exercise" id="ex4-g"
+      title="Escreva um programa que apresente a série de Fibonacci até o décimo quinto termo. A série de Fibonacci é formada pela seqüência: 1, 1, 2, 3, 5, 8, 13, 21, 34, ..., etc. Esta série se caracteriza pela soma de um termo atual com o seu anterior subseqüente, para que seja formado o próximo valor da seqüência. Portanto começando com os números 1, 1 o próximo termo é 1+1=2, o próximo é 1+2=3, o próximo é 2+3=5, o próximo 3+5=8, etc.">
+      <span class="letter">35</span><span class="label-short">Fibonacci</span>
+    </button>
+
+    <button class="exercise" id="ex4-h"
+      title="Elaborar um programa que apresente os valores de conversão de graus Celsius em Fahrenheit, de 10 em 10 graus, iniciando a contagem em 10 graus Celsius e finalizando em 100 graus Celsius. O programa deve apresentar os valores das duas temperaturas. A fórmula de conversão é 5/9 + 160 = C F , sendo F a temperatura em Fahrenheit e C a temperatura em Celsius.">
+      <span class="letter">36</span><span class="label-short">C→F10</span>
+    </button>
+
+    <button class="exercise" id="ex4-i"
+      title="Elaborar um programa que efetue a leitura de 10 valores numéricos e apresente no final o total do somatório e a média aritmética dos valores lidos.">
+      <span class="letter">37</span><span class="label-short">Σ&Média</span>
+    </button>
+
+    <button class="exercise" id="ex4-j"
+      title="Elaborar um programa que apresente os resultados da soma e da média aritmética dos valores pares situados na faixa numérica de 50 a 70.">
+      <span class="letter">38</span><span class="label-short">Σ&Média50-70</span>
+    </button>
+
+    <button class="exercise" id="ex4-k"
+      title="Elaborar um programa que possibilite calcular a área total de uma residência (sala, cozinha, banheiro, quartos, área de serviço, quintal, garagem, etc.). O programa deve solicitar a entrada do nome, a largura e o comprimento de um determinado cômodo. Em seguida, deve apresentar a área do cômodo lido e também uma mensagem solicitando do usuário a confirmação de continuar calculando novos cômodos. Caso o usuário responda “NAO”, o programa deve apresentar o valor total acumulado da área residencial.">
+      <span class="letter">39</span><span class="label-short">Área</span>
+    </button>
+
+    <button class="exercise" id="ex4-l"
+      title="Elaborar um programa que efetue a leitura de valores positivos inteiros até que um valor negativo seja informado. Ao final devem ser apresentados o maior e o menor valores informados pelo usuário.">
+      <span class="letter">40</span><span class="label-short">Maior/Menor -</span>
+    </button>
+    <!-- Exercícios pag 50 -->
+    <button class="exercise" id="ex5-a" title="Apresentar os quadrados dos números inteiros de 15 a 200.">
+      <span class="letter">41</span><span class="label-short">Quadrados</span>
+    </button>
+
+    <button class="exercise" id="ex5-b"
+      title="Elaborar um programa que apresente no final o somatório dos valores pares existentes na faixa de 1 até 500.">
+      <span class="letter">42</span><span class="label-short">ΣPares</span>
+    </button>
+
+    <button class="exercise" id="ex5-c"
+      title="Apresentar todos os números divisíveis por 4 que sejam menores que 200. Para verificar se o número é divisível por 4, efetuar dentro da malha a verificação lógica desta condição com a instrução se, perguntando se o número é divisível; sendo, mostre-o; não sendo, passe para o próximo passo. A variável que controlará o contador deve ser iniciada com o valor 1.">
+      <span class="letter">43</span><span class="label-short">Div4</span>
+    </button>
+
+    <button class="exercise" id="ex5-d"
+      title="Elaborar um programa que efetue o cálculo e no final apresente o somatório do número de grãos de trigo que se pode obter num tabuleiro de xadrez, obedecendo à seguinte regra: colocar um grão de trigo no primeiro quadro e nos quadros seguintes o dobro do quadro anterior. Ou seja, no primeiro quadro coloca-se 1 grão, no segundo quadro colocam-se 2 grãos (neste momento têm-se 3 grãos), no terceiro quadro colocam-se 4 grãos (tendo neste momento 7 grãos), no quarto colocam-se 8 grãos (tendo-se então 15 grãos) até atingir o sexagésimo quarto (64o) quadro. Utilize variáveis do tipo real como acumuladores.">
+      <span class="letter">44</span><span class="label-short">Trigo</span>
+    </button>
+
+    <button class="exercise" id="ex5-e"
+      title="Elaborar um programa que efetue a leitura de 15 valores numéricos inteiros e no final apresente o total do somatório da fatorial de cada valor lido.">
+      <span class="letter">45</span><span class="label-short">ΣFatorial</span>
+    </button>
+
+    <button class="exercise" id="ex5-f"
+      title="Elaborar um programa que efetue a leitura sucessiva de valores numéricos e apresente no final o total do somatório, a média aritmética e o total de valores lidos. O programa deve fazer as leituras dos valores enquanto o usuário estiver fornecendo valores positivos. Ou seja, o programa deve parar quando o usuário fornecer um valor negativo. Não se esqueça que o usuário pode entrar como primeiro número um número negativo, portanto, cuidado com a divisão por zero no cálculo da média.">
+      <span class="letter">46</span><span class="label-short">Σ&Média</span>
+    </button>
+
+    <button class="exercise" id="ex5-g"
+      title="Elaborar um programa que apresente como resultado o valor do fatorial dos valores ímpares situados na faixa numérica de 1 a 10.">
+      <span class="letter">47</span><span class="label-short">Fatorial Ímpares</span>
+    </button>
+
+    <button class="exercise" id="ex5-h"
+      title="Elaborar um programa que possibilite calcular a área total de uma residência (sala, cozinha, banheiro, quartos, área de serviço, quintal, garagem, etc.). O programa deve solicitar a entrada do nome, a largura e o comprimento de um determinado cômodo. Em seguida, deve apresentar a área do cômodo lido e também uma mensagem solicitando do usuário a confirmação de continuar calculando novos cômodos. Caso o usuário responda “NAO”, o programa deve apresentar o valor total acumulado da área residencial.">
+      <span class="letter">48</span><span class="label-short">Área</span>
+    </button>
+
+    <button class="exercise" id="ex5-i"
+      title="Elaborar um programa que efetue a leitura de valores positivos inteiros até que um valor negativo seja informado. Ao final devem ser apresentados o maior e o menor valores informados pelo usuário.">
+      <span class="letter">49</span><span class="label-short">Maior/Menor + -</span>
+    </button>
+
+    <button class="exercise" id="ex5-j"
+      title="Elaborar um programa que apresente o resultado inteiro da divisão de dois números quaisquer. Para a elaboração do programa, não utilizar em hipótese alguma o conceito do operador aritmético DIV. A solução deve ser alcançada com a utilização de looping. Ou seja, o programa deve apresentar como resultado (quociente) quantas vezes o divisor cabe no dividendo.">
+      <span class="letter">50</span><span class="label-short">Divisão</span>
+    </button>
+
+    <!-- Exercícios pag 66 -->
+    <button class="exercise" id="ex6-a" title="Apresentar os quadrados dos números inteiros de 15 a 200.">
+      <span class="letter">51</span><span class="label-short">Quadrados</span>
+    </button>
+
+    <button class="exercise" id="ex6-b"
+      title="Apresentar os resultados de uma tabuada de multiplicar (de 1 até 10) de um número qualquer.">
+      <span class="letter">52</span><span class="label-short">Tabuada</span>
+    </button>
+
+    <button class="exercise" id="ex6-c"
+      title="Apresentar o total da soma obtida dos cem primeiros números inteiros (1+2+3+4+...+98+99+100).">
+      <span class="letter">53</span><span class="label-short">Σ100</span>
+    </button>
+
+    <button class="exercise" id="ex6-d"
+      title="Elaborar um programa que apresente no final o somatório dos valores pares existentes na faixa de 1 até 500.">
+      <span class="letter">54</span><span class="label-short">ΣPares</span>
+    </button>
+
+    <button class="exercise" id="ex6-e"
+      title="Apresentar todos os valores numéricos inteiros ímpares situados na faixa de 0 a 20. Para verificar se o número é ímpar, efetuar dentro da malha a verificação lógica desta condição com a instrução se, perguntando se o número é ímpar; sendo, mostre-o; não sendo, passe para o próximo passo.">
+      <span class="letter">55</span><span class="label-short">Ímpares</span>
+    </button>
+
+    <button class="exercise" id="ex6-f"
+      title="Apresentar todos os números divisíveis por 4 que sejam menores que 200. Para verificar se o número é divisível por 4, efetuar dentro da malha a verificação lógica desta condição com a instrução se, perguntando se o número é divisível; sendo, mostre-o; não sendo, passe para o próximo passo. A variável que controlará o contador deve ser iniciada com o valor 1.">
+      <span class="letter">56</span><span class="label-short">Div4</span>
+    </button>
+
+    <button class="exercise" id="ex6-g"
+      title="Apresentar os resultados das potências de 3, variando do expoente 0 até o expoente 15. Deve ser considerado que qualquer número elevado a zero é 1, e elevado a 1 é ele próprio. Observe que neste exercício não pode ser utilizado o operador de exponenciação do portuguol (^).">
+      <span class="letter">57</span><span class="label-short">3^n</span>
+    </button>
+
+    <button class="exercise" id="ex6-h"
+      title="Elaborar um programa que apresente como resultado o valor de uma potência de uma base qualquer elevada a um expoente qualquer, ou seja, de BE, em que B é o valor da base e E o valor do expoente. Observe que neste exercício não pode ser utilizado o operador de exponenciação do portugol (^).">
+      <span class="letter">58</span><span class="label-short">B^E</span>
+    </button>
+
+    <button class="exercise" id="ex6-i"
+      title="Escreva um programa que apresente a série de Fibonacci até o décimo quinto termo. A série de Fibonacci é formada pela seqüência: 1, 1, 2, 3, 5, 8, 13, 21, 34, ..., etc. Esta série se caracteriza pela soma de um termo atual com o seu anterior subseqüente, para que seja formado o próximo valor da seqüência. Portanto começando com os números 1, 1 o próximo termo é 1+1=2, o próximo é 1+2=3, o próximo é 2+3=5, o próximo 3+5=8, etc.">
+      <span class="letter">59</span><span class="label-short">Fibonacci</span>
+    </button>
+
+    <button class="exercise" id="ex6-j"
+      title="Elaborar um programa que apresente os valores de conversão de graus Celsius em Fahrenheit, de 10 em 10 graus, iniciando a contagem em 10 graus Celsius e finalizando em 100 graus Celsius. O programa deve apresentar os valores das duas temperaturas. A fórmula de conversão é 5+1609=C F , sendo F a temperatura em Fahrenheit e C a temperatura em Celsius.">
+      <span class="letter">60</span><span class="label-short">C→F10</span>
+    </button>
+
+    <button class="exercise" id="ex6-k"
+      title="Elaborar um programa que apresente como resultado o valor do fatorial dos valores ímpares situados na faixa numérica de 1 a 10.">
+      <span class="letter">61</span><span class="label-short">Fatorial Ímpares</span>
+    </button>
+
+
+
+  </div>
+
+  <script src="../js/manzano.js"></script>
+  </body>
